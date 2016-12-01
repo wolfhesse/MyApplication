@@ -19,12 +19,6 @@ import static org.junit.Assert.assertEquals;
 
 public class DrivingTest {
     @Test
-    public void DrivingModularity_isIdent() throws Exception {
-        assertEquals(1, 1);
-
-    }
-
-    @Test
     public void DrivingModularity_initModules() throws Exception {
         // 'controller' .. w/o config
         String config = "config parm";
