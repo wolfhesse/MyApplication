@@ -9,6 +9,7 @@ import java.util.stream.Collectors;
  * Created by brittamallinger on 30.11.16.
  */
 public class Module1 {
+
     // observer interface
     public interface StateListener {
         Object stateChanged(EventObject event);
